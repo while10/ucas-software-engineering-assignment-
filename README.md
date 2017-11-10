@@ -44,7 +44,7 @@
 
 下图是登录进去所选功能，功能有注销和显示所有用户信息
 
-<img src="/lib/7.png" width="500">  
+<img src="/lib/7.png" width="300">  
 
 
 * 下图是显示所有用信息
@@ -54,17 +54,17 @@
 
 * 下图是修改用户信息界面
 
-<img src="/lib/9.png" width="500">
+<img src="/lib/9.png" width="300">
 
 
 * 下图是修改用户信息确认
 
-<img src="/lib/10.png" width="500">
+<img src="/lib/10.png" width="300">
 
 
 * 下图提示修改成功
 
-<img src="/lib/11.png" width="500"> 
+<img src="/lib/11.png" width="400"> 
 
 
 * 下面两张图片演示删除账户4的功能
