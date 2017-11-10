@@ -1,10 +1,7 @@
 
 
-<<<<<<< HEAD
-### [我把我的项目放在这了点击这里其实还是这个网页（傻笑中）](https://github.com/while10/a)
-=======
 ### [我把我的项目放在这了点击这里其实还是这个网页（傻笑中）](https://github.com/while10/a) 
->>>>>>> 206320404ac527d47f7991115ecdae4364cbba03
+
 
 做这个项目主要目的是完成老师布置的作业，也了解下ruby on rails是如何开发网站的，听说过国科大的选课系统就是用这个开发的，也是当时我选这门课的目的之一，崇拜ing
 
@@ -21,14 +18,21 @@
 
 ### 截图
 
-<img src="/lib/screenshot1.png" width="700">  
+<img src="/lib/1.png" width="700">  
 
-<img src="/lib/screenshot2.png" width="700">
-<<<<<<< HEAD
+<img src="/lib/1.1.png" width="700">
 
-<img src="/lib/screenshot3.png" width="700">   
-
-<img src="/lib/screenshot4.png" width="700">
+<img src="/lib/2.png" width="700">   
+<img src="/lib/3.png" width="700"> 
+<img src="/lib/4.png" width="700">  
+<img src="/lib/5.png" width="700"> 
+<img src="/lib/7.png" width="700">  
+<img src="/lib/8.png" width="700">  
+<img src="/lib/9.png" width="700">  
+<img src="/lib/10.png" width="700">  
+<img src="/lib/11.png" width="700"> 
+<img src="/lib/13.png" width="700"> 
+<img src="/lib/14.png" width="700">  
 
 ## 说明
 
