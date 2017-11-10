@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>注册</title>
+	<meta charset = 'utf8'>
+</head>
+
+
+<body>
+
+
+
+
+	<%= form_for(@user,:url=>"/users/create") do |f| %>
+
+	<%if @user.errors.any? %>
+	 <h3>Errors</h3>
+	 <ul>
+	   <% @user.errors.full_messages.each do |msg| %>
+	     <li><%=msg%></li>
+	   <% end %>
+	 </ul>
+	 <%end%>
+
+		<div class="field">
+    		<%= f.label :account %><br>
+    		<%= f.text_field :account %>
+  		</div>
+  		<div class="field">
+    		<%= f.label :password %><br>
+    		<%= f.text_field :password %>
+  		</div>
+  		<div class="field">
+    		<%= f.label :name %><br>
+    		<%= f.text_field :name %>
+  		</div>
+  		<div class="field">
+    		<%= f.label :email %><br>
+    		<%= f.text_field :email %>
+  		</div>
+  		<div class="actions">
+    		<%= f.submit %>
+				<%=link_to 'Back', :controller=>'home',:action=>'index' %>
+  		</div>
+	<% end %>
+	
+</body>
+</html>

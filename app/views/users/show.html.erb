@@ -1,0 +1,16 @@
+
+
+<h1>Our Users</h1>
+<% @users.each do |user| %>
+<div class="beijing">
+  账户：<%=user.account%> |
+  密码：<%=user.password%> |
+  姓名：<%=user.name%> |
+  邮箱：<%=user.email%>
+</div>
+
+
+  <p><%= link_to "Edit",edit_user_path(user)%> |
+    <%= link_to "Delete",user, :confirm =>"Are you sure", :method=>:delete %> |
+    <%=link_to 'Back', :controller=>'home',:action=>'index' %></p>
+<% end %>

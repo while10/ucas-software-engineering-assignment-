@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>登录</title>
+	<meta charset = 'utf8'>
+</head>
+<body>
+	<%= form_for(:user,:url=>"/home/checkLogin") do |f| %>
+		<div class="field">
+    		<%= f.label :account %><br>
+    		<%= f.text_field :account %>
+  		</div>
+  		<div class="field">
+    		<%= f.label :password %><br>
+    		<%= f.text_field :password %>
+  		</div>
+  		<div class="actions">
+    		<%= f.submit %>
+				<%=link_to 'Back',:action=>'index',:controller=>'home'%>
+  		</div>
+	<% end %>
+  
+</body>
+</html>

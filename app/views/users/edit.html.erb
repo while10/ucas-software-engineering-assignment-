@@ -1,0 +1,38 @@
+<script type="text/javascript">
+function show_confirm()
+{
+var r=confirm("更新用户信息到数据库？");
+if (r==true)
+  {
+  alert("更新成功！");
+  }
+else
+  {
+  alert("更新失败！");
+  }
+}
+</script>
+
+<h1>Edit  User</h1>
+	<%= form_for @user do |f| %>
+<div class="field">
+		<%= f.label :account %><br>
+		<%= f.text_field :account %>
+	</div>
+	<div class="field">
+		<%= f.label :password %><br>
+		<%= f.text_field :password %>
+	</div>
+	<div class="field">
+		<%= f.label :name %><br>
+		<%= f.text_field :name %>
+	</div>
+	<div class="field">
+		<%= f.label :email %><br>
+		<%= f.text_field :email %>
+	</div>
+  <div class="actions">
+	  <input type="submit" value="Edit save" onclick="show_confirm()"/>
+  </div>
+
+<% end %>
