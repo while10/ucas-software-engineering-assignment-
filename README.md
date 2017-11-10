@@ -22,17 +22,18 @@
 
 <img src="/lib/1.1.png" width="700">
 
-<img src="/lib/2.png" width="700">   
-<img src="/lib/3.png" width="700"> 
-<img src="/lib/4.png" width="700">  
-<img src="/lib/5.png" width="700"> 
-<img src="/lib/7.png" width="700">  
-<img src="/lib/8.png" width="700">  
-<img src="/lib/9.png" width="700">  
-<img src="/lib/10.png" width="700">  
-<img src="/lib/11.png" width="700"> 
-<img src="/lib/13.png" width="700"> 
-<img src="/lib/14.png" width="700">  
+<img src="/lib/2.png" width="300">   
+
+<img src="/lib/3.png" width="300"> 
+<img src="/lib/4.png" width="300">  
+<img src="/lib/5.png" width="300"> 
+<img src="/lib/7.png" width="300">  
+<img src="/lib/8.png" width="500">  
+<img src="/lib/9.png" width="500">  
+<img src="/lib/10.png" width="500">  
+<img src="/lib/11.png" width="500"> 
+<img src="/lib/13.png" width="500"> 
+<img src="/lib/14.png" width="500">  
 
 ## 说明
 
